@@ -1,0 +1,28 @@
+$main-black: #171a18;
+$main-light: #cfd0d1;
+$accent: #2dffc4;
+
+// FONT SCALES
+/* 
+  48.83px;
+  39.06px;
+  31.25px;
+  25.00px;
+  20.00px;
+  16.00px;
+  12.80px;
+  10.24px;
+*/
+
+.works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 4rem;
+  .container {
+    max-width: 120rem;
+    margin-top: 5%;
+  }
+}
