@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./hero.scss";
+import Btn from "../btn/btn";
 
 //components
 
@@ -21,9 +22,10 @@ export default function Hero() {
             <Link className="btn btn--1" to="/works">
               <span>Перейти к моим работам</span>
             </Link>
-            <a href="/" className="btn btn--2">
+            <Btn title="Посмотреть CV" />
+            {/* <a href="/" className="btn btn--2">
               Посмотреть CV
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

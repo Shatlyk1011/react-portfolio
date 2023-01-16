@@ -4,6 +4,11 @@ $main-black: #171a18;
 $main-light: #cfd0d1;
 $accent: #2dffc4;
 
+/* FONT FAMILY 
+  PRESSSTART
+  font-family: "Press Start 2P", cursive;
+*/
+
 // FONT SCALES
 /* 
   48.83px;
@@ -34,4 +39,31 @@ body {
 html {
   font-size: 62.5%;
   line-height: 1.75;
+  // font-size: 1.6rem;
+}
+
+.btn,
+button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.024rem;
+  color: $main-light;
+  letter-spacing: 3px;
+  padding: 1rem 1.4rem;
+  border: 3px solid $main-light;
+  transition: all 0.1s;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  letter-spacing: 3px;
+  user-select: none;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  &:active {
+    transform: translate(2px, 2px);
+  }
 }

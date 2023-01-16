@@ -20,9 +20,29 @@ $accent: #2dffc4;
   align-items: center;
   flex-direction: column;
   width: 100%;
-  padding: 4rem;
+
   .container {
     max-width: 120rem;
-    margin-top: 5%;
+    padding: 3rem 5rem;
+    margin: 4rem;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 21px 6px rgba($main-light, 0.62);
+    -moz-box-shadow: 0px 0px 21px 6px rgba($main-light, 0.62);
+    box-shadow: 0px 0px 21px 6px rgba($main-light, 0.62);
+  }
+
+  .description {
+  }
+
+  h1 {
+    font-size: 3.125rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+
+    span {
+      letter-spacing: 1px;
+    }
   }
 }

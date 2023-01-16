@@ -59,31 +59,6 @@ $main-light: #cfd0d1;
     justify-content: flex-end;
   }
 
-  .btn {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.024rem;
-    color: $main-light;
-    letter-spacing: 3px;
-    padding: 1rem 1.4rem;
-    border: 3px solid $main-light;
-    transition: all 0.1s;
-    position: relative;
-    overflow: hidden;
-    z-index: 10;
-    letter-spacing: 3px;
-    user-select: none;
-
-    &:hover {
-      transform: scale(1.03);
-    }
-
-    &:active {
-      transform: translate(2px, 2px);
-    }
-  }
-
   .btn--1 {
     &::before,
     &::after,
@@ -141,7 +116,7 @@ $main-light: #cfd0d1;
     }
   }
 
-  .btn--2 {
+  /*   .btn--2 {
     &:hover {
       background-color: $main-black;
     }
@@ -161,5 +136,5 @@ $main-light: #cfd0d1;
     &:hover::before {
       transform: translateX(100%) rotate(45deg);
     }
-  }
+  } */
 }

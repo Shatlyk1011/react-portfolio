@@ -1,0 +1,32 @@
+$main-black: #171a18;
+$main-light: #cfd0d1;
+
+.btn-main {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: $main-black;
+  }
+
+  &::before {
+    content: "";
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    transform: translate(-100%, 50px) rotate(40deg);
+    transition: 1s all;
+  }
+
+  &:hover::before {
+    transform: translateX(100%) rotate(45deg);
+  }
+}
+
+.padding {
+  padding: 0.5rem;
+}
