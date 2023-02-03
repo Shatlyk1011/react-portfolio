@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5be2eda2.css",
-    "main.js": "/static/js/main.b5b92e31.js",
+    "main.js": "/static/js/main.ecacb8f9.js",
     "static/media/market.svg": "/static/media/market.8514f7e59b0feba81c024dae26a65ca6.svg",
     "static/media/github.svg": "/static/media/github.d6badfbfa93d1a46e39b377bc5cad791.svg",
     "static/media/pizza.svg": "/static/media/pizza.3aea065921fa7be45fba2287864b8cf3.svg",
@@ -14,10 +14,10 @@
     "static/media/calculator.svg": "/static/media/calculator.3667d82953f99f3121260fa02f75f47e.svg",
     "static/media/check.svg": "/static/media/check.4eae543ee5064cb536f658e6603324bc.svg",
     "main.5be2eda2.css.map": "/static/css/main.5be2eda2.css.map",
-    "main.b5b92e31.js.map": "/static/js/main.b5b92e31.js.map"
+    "main.ecacb8f9.js.map": "/static/js/main.ecacb8f9.js.map"
   },
   "entrypoints": [
     "static/css/main.5be2eda2.css",
-    "static/js/main.b5b92e31.js"
+    "static/js/main.ecacb8f9.js"
   ]
 }
