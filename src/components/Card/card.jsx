@@ -6,6 +6,7 @@ import { ReactComponent as Site } from "../../assets/icons/site.svg";
 import Btn from "../btn/btn";
 
 export default function card({
+  title,
   imgUrl,
   tools,
   icon,
@@ -17,11 +18,16 @@ export default function card({
       <div className="wrap">
         <img src={imgUrl} alt="" className="img" />
         <div className="tools">
-          {tools && tools.map((tool) => <div className="tool">{tool}</div>)}
+          {tools &&
+            tools.map((tool) => (
+              <div className="tool" key={tool}>
+                {tool}
+              </div>
+            ))}
         </div>
         <div className="title">
           <span>{icon}</span>
-          Todo list
+          {title}
         </div>
         <div className="description">{children}</div>
         <div className="btns">
