@@ -22,7 +22,10 @@ export default function Hero() {
             <Link className="btn btn--1" to="/works">
               <span>Перейти к моим работам</span>
             </Link>
-            <Btn title="Посмотреть CV" />
+            <Btn
+              url="https://cloud.mail.ru/public/RQ1j/cVYAYyJ4D"
+              title="Посмотреть CV"
+            />
             {/* <a href="/" className="btn btn--2">
               Посмотреть CV
             </a> */}
